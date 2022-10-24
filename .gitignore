@@ -1,0 +1,40 @@
+# Env
+.env
+
+# composer
+#/vendor
+composer.phar
+## remove in production!
+composer.lock
+
+# IDE
+.idea
+nbproject
+.buildpath
+.project
+.settings
+.vscode
+
+# windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit
+phpunit.phar
+/phpunit.xml
+
+# Vagrant
+/.vagrant
+
+# Tests
+tests/codeception/*/_support/_generated/*
+#assets
+/assets
+/admin/assets
+#runtime
+/backend/runtime/*
+/backend/runtime
+/frontend/runtime
+/frontend/runtime/*
